@@ -45,7 +45,7 @@ const PersonalInjury = async ({
 <div className="bg-logoBlue p-10">
    <div className="flex sm:flex-col md:flex-row md:container md:mx-auto ">
         <div className="md:flex">
-                <Image className=" h-full md:min-h-[300px] shadow-2xl md:w-9/10" width={2000} height={2000} src={lawyer2} alt=""/>
+                <Image className=" sm:h-full md:min-h-[300px] shadow-2xl md:w-9/10" width={3000} height={2000} src={lawyer2} alt=""/>
         </div>
         <div>
                 <p className="sm:text-center text-[28px] text-white sm:pt-5">Our Expertise</p>

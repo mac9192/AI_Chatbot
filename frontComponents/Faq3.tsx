@@ -21,7 +21,7 @@ const Faq2 = ({dictionary}:{dictionary:any}) => {
         <div className="flex flex-col lg:flex-row w-full flex-row-reverse mx-auto">  
           <div className="lg:w-3/5 md:full md:pr-10   ">
     
-    <div className="" id="accordion-collapse" data-accordion="open">
+    <div className=" bg-white "id="accordion-collapse" data-accordion="open">
       <h2 id="accordion-collapse-heading-1">
         <button type="button" className="flex items-center justify-between w-full p-5 font-medium text-left text-white border border-b-0 border-gray-200  focus:ring-4 focus:ring-gray-200  bg-logoBlue  " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
         <div className="flex-shrink-0 w-10 h-10 rounded-full bg-logoBlue inline-flex items-center justify-center text-white relative z-10">
