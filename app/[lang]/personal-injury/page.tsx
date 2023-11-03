@@ -7,6 +7,7 @@ import Testimonials from '@frontComponents/Testimonials'
 import {getDictionary} from '../../../lib/getDictionary'
 import lawyer2 from '../../../public/assets/lawyer2.png' 
 import Faq3 from '../../../frontComponents/Faq3'
+ 
 
 
 const PersonalInjury = async ({
@@ -41,33 +42,20 @@ const PersonalInjury = async ({
        </div>
    </div>
 
-<div className="bg-logoBlue">
-    <div className=" md:mx-auto md:p-[80px] sm:pt-8">
-           
-                <div className="flex md:flex-row sm:flex-col mx-auto w-full">
-            
+<div className="bg-logoBlue p-10">
+   <div className="flex sm:flex-col md:flex-row md:container md:mx-auto ">
+        <div className="md:flex">
+                <Image className=" h-full md:min-h-[300px] shadow-2xl md:w-9/10" width={2000} height={2000} src={lawyer2} alt=""/>
+        </div>
+        <div>
+                <p className="sm:text-center text-[24px] text-white sm:pt-5">Our Expertise</p>
+                <p className="sm:p-10 text-white text-[18px]">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
 
-            <div className="md:w-1/2 md:min-w-[80px] sm:w-full">
-                    <Image className=" h-full md:min-h-[300px] shadow-2xl w-full " width={2000} height={2000} src={lawyer2} alt=""/>
-            </div>
-                  
-             
-              
+                                                              A Georgia personal injury lawyer from Cheves Briceno is prepared to negotiate a settlement or go to trial for the fair and just compensation that you deserve.</p>
+        </div>
 
-
-                
-                <div className="flex flex-col p-10  text-left">
-
-                          <p className="   md:w-1/3 text-left  text-[24px] text-white tracking-wide    sm:pb-3 md:text-left sm:text-center">Our Expertise</p>
-                          <div className=" w-16 h-1 rounded-full bg-amber-500 inline-flex inline sm:text-center md:block sm:hidden "></div>
-                <p className="md:p-10 w-full md:text-left max-w-[800px] text-white tracking-wide text-[20px] sm:pt-6 sm:text-center ">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
-
-                    A Georgia personal injury lawyer from Cheves Briceno is prepared to negotiate a settlement or go to trial for the fair and just compensation that you deserve.</p>
-                </div>
-          
-                </div>
-            </div>
-</div>
+   </div>
+  </div>
             
 
             <div className=" text-center ">
@@ -139,4 +127,31 @@ export default PersonalInjury
             </div>
 
 
+/*
+
+  <div className=" md:mx-auto md:p-[80px] sm:pt-8">
+           
+                <div className="flex md:flex-row sm:flex-col mx-auto w-full">
+            
+
+            <div className="md:w-1/2 md:min-w-[80px] sm:w-full">
+                    <Image className=" h-full md:min-h-[300px] shadow-2xl w-full " width={2000} height={2000} src={lawyer2} alt=""/>
+            </div>
+                  
+             
+              
+
+
+                
+                <div className="flex flex-col p-10  text-left">
+
+                          <p className="   md:w-1/3 text-left  text-[24px] text-white tracking-wide    sm:pb-3 md:text-left sm:text-center">Our Expertise</p>
+                          <div className=" w-16 h-1 rounded-full bg-amber-500 inline-flex inline sm:text-center md:block sm:hidden "></div>
+                <p className="md:p-10 w-full md:text-left max-w-[800px] text-white tracking-wide text-[20px] sm:pt-6 sm:text-center ">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
+
+                    A Georgia personal injury lawyer from Cheves Briceno is prepared to negotiate a settlement or go to trial for the fair and just compensation that you deserve.</p>
+                </div>
+          
+                </div>
+            </div>
 */
