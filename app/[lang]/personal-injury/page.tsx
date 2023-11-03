@@ -48,8 +48,8 @@ const PersonalInjury = async ({
                 <Image className=" h-full md:min-h-[300px] shadow-2xl md:w-9/10" width={2000} height={2000} src={lawyer2} alt=""/>
         </div>
         <div>
-                <p className="sm:text-center text-[24px] text-white sm:pt-5">Our Expertise</p>
-                <p className="sm:p-10 text-white text-[18px]">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
+                <p className="sm:text-center text-[28px] text-white sm:pt-5">Our Expertise</p>
+                <p className="sm:p-10 text-white text-[22px]">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
 
                                                               A Georgia personal injury lawyer from Cheves Briceno is prepared to negotiate a settlement or go to trial for the fair and just compensation that you deserve.</p>
         </div>
@@ -92,7 +92,7 @@ const PersonalInjury = async ({
     
                </div>
 
-               <div>
+               <div className="bg-graydark ">
                    <Faq3 dictionary={dictionary} />
                </div>
 
