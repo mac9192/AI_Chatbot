@@ -19,10 +19,11 @@ const Dropdown = ({locale, dictionary}:navBar ) => {
                
                  <ul className="mb-4 space-y-4 md:mb-0">
                  <li>
-                     <Link href={`/`}>{dictionary.menu.personalInjury}</Link>
+                     <Link href={`/${locale}/personal-injury`}>{dictionary.menu.personalInjury}</Link>
                     </li>
                   <li>
-                        <Link href={`/`}>{dictionary.menu.immigrationLaw}</Link>
+                      
+                        <Link href={`/${locale}/immigration`}>{dictionary.menu.immigrationLaw}</Link>
                     </li>
                     <li>
                         <Link href={`/`}>{dictionary.menu.aboutUs}</Link>
