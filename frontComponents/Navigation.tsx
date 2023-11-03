@@ -81,21 +81,29 @@ const [toggle, setToggle] = useState(false)
           </Link>
             <div className="hidden md:flex flex space-x-6 text-md text-black ">
             <ul className=" hidden md:flex flex items-center gap-4 text-neutral-600 text-black">
+
+            <li>
+                     <Link className=" " href={`/${locale}/ `}>{dictionary.menu.home}</Link>
+                    </li>
+        
                 
                 <li>
-                     <Link className="line-through" href={`/`}>{dictionary.menu.personalInjury}</Link>
+                     <Link className=" " href={`/${locale}/personal-injury`}>{dictionary.menu.personalInjury}</Link>
                     </li>
                   <li>
-                        <Link className="line-through" href={`/`}>{dictionary.menu.immigrationLaw}</Link>
+                        <Link className=" " href={`/${locale}/immigration`}>{dictionary.menu.immigrationLaw}</Link>
                     </li>
-                    <li>
-                        <Link  className="line-through "href={`/`}>{dictionary.menu.aboutUs}</Link>
+                    {/*  
+                      <li>
+                        <Link  className="  "href={`/${locale}/about`}>{dictionary.menu.aboutUs}</Link>
                     </li>
+                    */}
+                  
                     <li>
                         <Link href={`/${locale}/blog`}>BLOG</Link>
                     </li>
                     <li>
-                        <Link className="line-through" href={`/`}>{dictionary.menu.contact}</Link>
+                        <Link className=" " href={`/`}>{dictionary.menu.contact}</Link>
                     </li>
                     <li>
                   <LangSwithcer locale={locale} />

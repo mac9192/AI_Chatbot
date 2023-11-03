@@ -18,6 +18,7 @@ import Events from '../../frontComponents/Events'
 import ContactInfo from '../../frontComponents/ContactInfo'
 import H2 from '../../frontComponents/Header2'
 import Mobile from '../../frontComponents/Navigation'
+ 
 
 
 import {getDictionary} from '../../lib/getDictionary'

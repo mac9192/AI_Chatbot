@@ -18,12 +18,13 @@ const navigation = async ({locale}: {locale:string}) => {
           </Link>
           <nav>
               <ul className=" hidden md:flex flex items-center gap-4 text-neutral-600 text-black">
+          
                 
               <li>
-                      <Link href={`/`}>PERSONAL INJURY</Link>
+                      <Link href={`/${locale}/personal-injury`}>PERSONAL INJURY</Link>
                   </li>
                 <li>
-                      <Link href={`/`}>IMMIGRATION LAW</Link>
+                      <Link href={`/${locale}/immigration-law`}>IMMIGRATION LAW</Link>
                   </li>
                   <li>
                       <Link href={`/`}>ABOUT US</Link>

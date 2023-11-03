@@ -14,6 +14,8 @@ import Navigation from '../../frontComponents/Navigation'
 import Providers from '../../chatbot-components/Providers'
 import Chat from '../../chatbot-components/Chat'
 
+import ContactInfo from '@frontComponents/ContactInfo'
+
 const abhaya_Libre = Abhaya_Libre({weight:'400', subsets: ['latin'] })
 
 /*export const metadata: Metadata = {
@@ -85,10 +87,14 @@ export default async function RootLayout({
         {/*<Navbar locale={lang} /> */}
         
         <div className="min-h-[calc(100vh-300px)]">{children}</div>
+
+        <ContactInfo dictionary={dicitionary}/>
         <Footer dictionary={dicitionary}/>
         {/*<Footer locale={lang} /> */}
         <Chat />
+       
       </body>
+
  </Providers>
  
      
