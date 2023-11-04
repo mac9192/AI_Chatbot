@@ -7,6 +7,7 @@ import Testimonials from '@frontComponents/Testimonials'
 import {getDictionary} from '../../../lib/getDictionary'
 import lawyer2 from '../../../public/assets/lawyer2.png' 
 import Faq3 from '../../../frontComponents/Faq3'
+import Iframe from 'react-iframe'
  
 
 
@@ -26,7 +27,9 @@ const PersonalInjury = async ({
  
 
         <div>
- 
+
+        
+         
  <div className="relative   ">
        <Image 
            layout="fill"
@@ -43,13 +46,13 @@ const PersonalInjury = async ({
    </div>
 
 <div className="bg-logoBlue p-10">
-   <div className="flex sm:flex-col md:flex-row md:container md:mx-auto ">
+   <div className="flex sm:flex-col md:flex-row md:container md:mx-auto  space-x-10">
         <div className="md:flex">
-                <Image className=" sm:h-full md:min-h-[300px] shadow-2xl md:w-9/10" width={3000} height={2000} src={lawyer2} alt=""/>
+        <iframe  className="md:pt-10 sm:pt-0"width="560" height="315" src="https://www.youtube.com/embed/F1O_Tqa38JQ?si=ePLoehbOD4dWr0IN" title="YouTube video player"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
         </div>
         <div>
-                <p className="sm:text-center text-[28px] text-white sm:pt-5">Our Expertise</p>
-                <p className="sm:p-2 md:p-10 text-white text-[22px] sm:text-center md:text-left">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
+                <p className="sm:text-center text-[28px] text-white sm:pt-5 md:pt-0">Our Expertise</p>
+                <p className="sm:p-2 md:p- text-white text-[22px] sm:text-center md:text-left">At the personal injury firm of Cheves Briceno, we provide aggressive legal advocacy for people in Georgia, Alabama and Florida who have suffered injuries due to someone else’s negligence. We will not hesitate to take on powerful insurance companies and other corporate interests if it means helping you recoup compensation for your damages.
 
                                                               A Georgia personal injury lawyer from Cheves Briceno is prepared to negotiate a settlement or go to trial for the fair and just compensation that you deserve.</p>
         </div>

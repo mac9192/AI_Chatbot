@@ -19,9 +19,11 @@ import ContactInfo from '../../frontComponents/ContactInfo'
 import H2 from '../../frontComponents/Header2'
 import Mobile from '../../frontComponents/Navigation'
  
+ 
 
 
 import {getDictionary} from '../../lib/getDictionary'
+import HomeBlog from '@frontComponents/HomeBlog'
 
 
 
@@ -52,8 +54,9 @@ const page = async ({
     <Faq dictionary={dictionary}/>
     <Header3 dictionary={dictionary}/>
     <Faq2 dictionary={dictionary}/>
-    <Events dictionary={dictionary} />
-    <ContactInfo dictionary={dictionary} />
+ 
+    <HomeBlog dictionary={dictionary} />
+ 
  
     </div>
   )

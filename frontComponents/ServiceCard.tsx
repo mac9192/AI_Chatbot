@@ -22,7 +22,7 @@ console.log('servicessss', card)
     <p className="text-[22px] leading-relaxed">{card.title}</p>
  
  
-      <div className="absolute h-full w-full bg-black/50 flex items-center justify-center   group-hover:bottom-[35px] opacity-0 group-hover:opacity-100 transition-all duration-300">
+      <div className="absolute h-full w-full bg-black/50 flex   items-center justify-center   group-hover:bottom-[35px] opacity-0 group-hover:opacity-100 transition-all duration-300">
         <button className="bg-logoBlue text-white py-2 px-5 mt-[35px]">Learn More</button>
       </div>
     </div>

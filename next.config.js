@@ -15,7 +15,16 @@ const nextConfig = {
             {
                 hostname: "servicescardpub.s3.us-east-2.amazonaws.com",
                 protocol:"https"
-            }
+            },
+            {
+                hostname: "https://youtu.be/F1O_Tqa38JQ?si=ePLoehbOD4dWr0IN",
+                protocol:"https"
+            },
+            {
+                hostname: "https://youtube.com",
+                protocol:"https"
+            },
+            
         ]
     },
    /* experimental:{
