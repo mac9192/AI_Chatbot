@@ -1,5 +1,5 @@
 import '../../globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Libre_Franklin } from 'next/font/google'
 import {Abhaya_Libre } from 'next/font/google'
 import Navigation_ from "../../blog-components/navigation/navigation"
 import Footer from "../../frontComponents/Footer"
@@ -16,7 +16,7 @@ import Chat from '../../chatbot-components/Chat'
 
 import ContactInfo from '@frontComponents/ContactInfo'
 
-const abhaya_Libre = Abhaya_Libre({weight:'400', subsets: ['latin'] })
+const abhaya_Libre = Libre_Franklin({weight:'400', subsets: ['latin'] })
 
 /*export const metadata: Metadata = {
   title: "Explorer",
