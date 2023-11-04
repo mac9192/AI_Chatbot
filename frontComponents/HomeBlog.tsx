@@ -14,7 +14,7 @@ const HomeBlog = ({dictionary}:{dictionary:any}) => {
            {dictionary.events.header}
                   </div>
           
-             <div className="p-3 mx-auto md:container sm:pt-10 md:pl-[200px]  md:pr-[200px]">
+             <div className="p-3 mx-auto md:container sm:pt-10 ">
           <div className="flex  md:flex-row sm:flex-col mx-auto  md:space-y-0 sm:space-y-10   md:space-x-10  ">
               <div className="  border-t-4 border-logoBlue shadow-xl sm:p-3 bg-white shadow-2xl">
                <div className="flex flex-row justify-between sm:">
