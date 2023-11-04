@@ -9,6 +9,9 @@ import lawyer2 from '../../../public/assets/lawyer2.png'
 import Faq3 from '../../../frontComponents/Faq3'
 import Iframe from 'react-iframe'
  
+ 
+import injury from '../../../public/assets/icon-injury.svg'
+ 
 
 
 const PersonalInjury = async ({
@@ -33,22 +36,71 @@ const PersonalInjury = async ({
  <div className="relative   ">
        <Image 
            layout="fill"
-           className="object-center object-cover pointer-events-none"
+           className="object-center object-cover pointer-events-none md:min-h-[650px]"
            src={lawyerpic}
            alt="header pic"
            priority
+           quality={80}
            
        />
        <div className="relative z-1 md:min-h-[450px]  sm:min-h-[300px]">
-               <p className="flex items-center justify-center inset-0 absolute md:text-5xl lg:text-6xl tracking-tight text-white tracking-wide sm:text-[28px]">Personal Injury</p>
+                
  
        </div>
-   </div>
+        
+  
 
-<div className="bg-logoBlue p-10">
+   </div>  
+ <div>
+     <div className="md:hidden sm:block p-6">
+                     <p className="text-logoBlue   sm:text-[28px] text-[32px] font-bold track-leading ">COMPASSIONATE ADVOCATES FOR PERSONAL INJURY VICTIMS</p>
+                     <p className="text-black track-leading pt-5 ">At our personal injury law firm, we are dedicated to providing unwavering support and expert legal representation to those who have been injured due to the negligence of others. With a deep commitment to justice and a track record of successful outcomes, our team of compassionate advocates is here to help you secure the compensation you deserve.</p>
+     </div>
+ </div>
+
+   <div className="relative container   sm:hidden md:block h-32 w-32 mx-auto md:min-h-[225px] md:min-w-[1000px] md:mt-[-363px]   mb-[160px] ...">
+            <div className="absolute inset-x-5 bottom-0 h-16  text-white mx-auto     opacity-80">
+                <div className="flex flex-row  border-l-4 border-logoBlue ">
+                    <div className="w-4/5 flex flex-col bg-white min-h-[229px] p-5">
+                        <p className="text-logoBlue    text-[32px] font-bold track-leading ">COMPASSIONATE ADVOCATES FOR PERSONAL INJURY VICTIMS</p>
+                        <p className="text-black track-leading pt-5 ">At our personal injury law firm, we are dedicated to providing unwavering support and expert legal representation to those who have been injured due to the negligence of others. With a deep commitment to justice and a track record of successful outcomes, our team of compassionate advocates is here to help you secure the compensation you deserve.</p>
+                        <span className="border-dotted border-b-2 border-logoBlue pt-10 mb-10">
+
+                            
+                        </span>
+          
+                                <button className="w-1/5 flex text-left text-white bg-logoBlue  border-0 py-2 px-9 focus:outline-none hover:bg-gray rounded text-lg">Book</button>
+                            
+                            
+                
+                      
+                    </div>
+                    
+
+                    <div className="w-2/5 p-9 flex flex-col bg-logoBlue min-h-[280px]  ">
+                        <div className="flex flex-row inline-block align-top space-x-5">
+                           
+                                     <Image className="   " width={20} height={10} src={injury} alt=""/>
+                          
+                        
+                              <p className="text-[20px]"> PERSONAL INJURY</p>
+                              
+                        </div>
+                           <span className="border-dotted border-b-2 border-white pt-10  "></span>
+                        <p className="text-logoBlue pt-10 text-white  "> Our team of experienced attorneys is committed to securing the compensation and justice our clients deserve, ensuring they can focus on their recovery with confidence.</p>
+                   
+                        <p className="text-[18px] pt-12"> Explore More</p>
+                       
+                    </div>
+                </div>
+      
+            </div>
+       </div>
+
+<div className="bg-logoBlue p-10 md:mt-[338px] sm:mt-[0px]">
    <div className="flex sm:flex-col md:flex-row md:container md:mx-auto  space-x-10">
         <div className="md:flex">
-        <iframe  className="md:pt-10 sm:pt-0"width="560" height="315" src="https://www.youtube.com/embed/F1O_Tqa38JQ?si=ePLoehbOD4dWr0IN" title="YouTube video player"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+        <iframe  className="md:pt-10 sm:hidden md:block sm:p-10"width="560" height="315" src="https://www.youtube.com/embed/F1O_Tqa38JQ?si=ePLoehbOD4dWr0IN" title="YouTube video player"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
         </div>
         <div>
                 <p className="sm:text-center text-[28px] text-white sm:pt-5 md:pt-0">Our Expertise</p>

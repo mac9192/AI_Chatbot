@@ -23,12 +23,14 @@ const services = ({dictionary}:{dictionary:any}) => {
 
     <div className="flex flex-col md:flex-row  justify-center gap-x-20 items-stretch">
     <div>
-            <Image className="items-center rounded"src = {crash} alt="/" width="700" height="50" priority={true} />
+            <Image className="items-center rounded"src = {crash} alt="/" width="700" height="50" priority={true} quality={100}/>
   <h2 className="p-5 mx-auto text-center text-[32px]">{dictionary.services.personalInjury}</h2>
             <p className="md:max-w-2xl py-5 text-[20px] mx-auto"> {dictionary.services.personalInjurydesc}</p>
           </div>
           <div>
-            <Image className="items-center rounded"src = {immigration} alt="/" width="675" height="50" priority={true} />
+           
+            <img src=" https://servicescardpub.s3.us-east-2.amazonaws.com/img-crash.e1d720a2.webp" alt="A beautiful landscape" width="700" height="500"/>
+
   <h2 className="p-5 mx-auto text-center text-[32px]">{dictionary.services.immigration}</h2>
             <p className="md:max-w-2xl py-5 text-[20px] mx-auto"> {dictionary.services.immigrationdesc}</p>
           </div>

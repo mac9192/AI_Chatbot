@@ -16,7 +16,7 @@ module.exports = {
     screens: {
       sm: '300px',
       md: '1000px', //868
-      lg: '1206px',
+      lg: '1406px',
       xl: '1750px',
     },
     minWidth: {

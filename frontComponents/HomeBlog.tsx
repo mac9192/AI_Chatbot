@@ -23,9 +23,9 @@ const HomeBlog = ({dictionary}:{dictionary:any}) => {
                </div>
                <div className="flex sm:flex-col md:flex-row p-10 border-b-2 ">
                     <div>
-                    <Image className="sm:min-h-[250px] md:min-h-[100px] w-full object-cover sm:pt-6" width={500} height={300} src={immigration} alt=""/>
+                    <Image className=" " width={500} height={300} src={immigration} alt=""/>
                     </div>
-                    <div className="md:p-5 sm:p-0 md:flex-col">
+                    <div className="md:pl-5 sm:p-0 md:flex-col">
                         <h2 className="font-bold tracking-wide sm:pt-5 md:pt-0 md:text-[24px] ">Exploring Asylum and Refugee Status: Eligibility and Application Process</h2>
                         <p className="pt-2">PUBLISHED OCTOBER 25, 2023</p>
                         <p className="pt-2">Explain the criteria for obtaining asylum or refugee status, including the application process, and the importance of legal representation in these cases</p>
@@ -34,9 +34,9 @@ const HomeBlog = ({dictionary}:{dictionary:any}) => {
                </div>
                <div className="flex sm:flex-col md:flex-row  p-10 border-b-2 ">
                     <div>
-                    <Image className="sm:min-h-[250px] w-full object-cover sm:pt-6" width={500} height={300} src={law} alt=""/>
+                    <Image className=" " width={500} height={300} src={law} alt=""/>
                     </div>
-                    <div className="md:p-5 sm:p-0 md:flex-col">
+                    <div className="md:pl-5  sm:p-0 md:flex-col">
                         <h2 className="font-bold tracking-wide sm:pt-5 md:pt-0 md:text-[24px]">Exploring Asylum and Refugee Status: Eligibility and Application Process</h2>
                         <p className="pt-2">PUBLISHED OCTOBER 25, 2023</p>
                         <p className="pt-2">Explain the criteria for obtaining asylum or refugee status, including the application process, and the importance of legal representation in these cases</p>
@@ -46,9 +46,9 @@ const HomeBlog = ({dictionary}:{dictionary:any}) => {
                </div>
                <div className="flex sm:flex-col md:flex-row  p-10 border-b-2 ">
                     <div>
-                    <Image className="  w-full object-cover sm:pt-6" width={500} height={300} src={passport} alt=""/>
+                    <Image className="   " width={500} height={300} src={passport} alt=""/>
                     </div>
-                    <div className="md:p-5 sm:p-0 md:flex-col">
+                    <div className="md:pl-5  sm:p-0 md:flex-col">
                         <h2 className="font-bold tracking-wide sm:pt-5 md:pt-0 md:text-[24px]">Exploring Asylum and Refugee Status: Eligibility and Application Process</h2>
                         <p className="pt-2">PUBLISHED OCTOBER 25, 2023</p>
                         <p className="pt-2">Explain the criteria for obtaining asylum or refugee status, including the application process, and the importance of legal representation in these cases</p>

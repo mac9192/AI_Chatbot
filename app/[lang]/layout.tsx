@@ -16,7 +16,7 @@ import Chat from '../../chatbot-components/Chat'
 
 import ContactInfo from '@frontComponents/ContactInfo'
 
-const abhaya_Libre = Libre_Franklin({weight:'400', subsets: ['latin'] })
+const abhaya_Libre = Libre_Franklin({weight:'200', subsets: ['latin'] })
 
 /*export const metadata: Metadata = {
   title: "Explorer",
