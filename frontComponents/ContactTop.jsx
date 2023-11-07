@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactTop = () => {
   return (
-    <section class="text-white body-font bg-logoBlue">
+    <section class="text-white body-font bg-logoBlue ">
   <div class=" px-5   mx-auto flex flex-wrap py-3  ">
     <div class="lg:w-2/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 px-12">
       <h2 class="title-font font-medium text-3xl text-gray-900 md:text-[32px]">Contact Us Today</h2>

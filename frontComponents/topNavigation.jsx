@@ -10,7 +10,7 @@ import youtube from '../public/assets/icon-youtube.svg'
 const topNavigation = () => {
   return (
     <div>
-     <header class="sm:hidden md:block text-white bg-logoBlue body-font">
+     <header class="sm:hidden md:block text-white bg-logoBlue body-font z-100">
   <div class="md:container md:mx-auto mx-auto flex flex-wrap  flex-col md:flex-row items-center">
 
     <nav class="flex lg:w-4/5 flex-wrap md:flex-row sm:flex-col items-center text-base md:ml-auto">

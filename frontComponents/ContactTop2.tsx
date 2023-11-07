@@ -6,7 +6,7 @@ import court from '../public/assets/img-court.jpg'
 
 const ContactTop2 = ({dictionary}:{dictionary:any}) => {
   return (
-    <div className="flex flex-col w-full lg:flex-row sm:w-full -mt-[64px]  z-3">
+    <div className="flex flex-col w-full lg:flex-row sm:w-full -mt-[64px]  z-3 lg:-mt-[135px] md:-mt-[115px] sm:mt-[0px]">
 
     <div className="bg-logoBlue w-1/2 sm:w-full p-7 text-white rounded relative">
     <div className="lg:w-4/5 lg:w-1/2 md:pr-16 lg:pr-0 pr-0 px-12 rounded">

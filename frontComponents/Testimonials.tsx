@@ -1,14 +1,20 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import atl from '../public/assets/img-cityatl.webp'
 import stars from '../public/assets/icon-stars.png'
+import { ParallaxBanner } from 'react-scroll-parallax';
+
+
+ 
 
 const Testimonials = ({dictionary}:{dictionary:any}) => {
   return (
     <div>
+   
    <div className="relative ">
     <Image
-      layout="fill"
+      layout="fill" 
       className="object-center object-cover pointer-events-none"
       src={atl}
       alt="atlanta"
@@ -31,7 +37,7 @@ const Testimonials = ({dictionary}:{dictionary:any}) => {
         <p className="md:text-[28px] md:p-[80px] max-w-7xl text-2xl w-full ">{dictionary.header2.testimonials}</p>
     </div>
     <div className="flex items-center justify-center text-white">
-            <Image className="text-white "src = {stars} alt="/" width="200" height="50" priority={true} />
+            <Image className="text-white bg-fixed  "src = {stars} alt="/" width="200" height="50" priority={true} />
     </div>
 
     <div className="flex flex-col py-12">

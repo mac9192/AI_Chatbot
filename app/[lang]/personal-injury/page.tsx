@@ -36,8 +36,8 @@ const PersonalInjury = async ({
  <div className="relative   ">
        <Image 
            layout="fill"
-           className="object-center object-cover pointer-events-none md:min-h-[650px]"
-           src={lawyerpic}
+           className="object-center object-cover pointer-events-none md:min-h-[650px] bg-fixed "
+           src={'/assets/lawyerpic.jpg'}
            alt="header pic"
            priority
            quality={80}
@@ -58,7 +58,7 @@ const PersonalInjury = async ({
      </div>
  </div>
 
-   <div className="relative container   sm:hidden md:block h-32 w-32 mx-auto md:min-h-[225px] md:min-w-[1000px] md:mt-[-363px]   mb-[160px] ...">
+   <div className="relative container   sm:hidden md:block h-32 w-32 mx-auto md:min-h-[225px] md:min-w-[1000px] lg:min-w-[1200px] md:mt-[-363px] lg:mt-[-340px]   mb-[160px] ...">
             <div className="absolute inset-x-5 bottom-0 h-16  text-white mx-auto     opacity-80">
                 <div className="flex flex-row  border-l-4 border-logoBlue ">
                     <div className="w-4/5 flex flex-col bg-white min-h-[229px] p-5">
@@ -97,10 +97,10 @@ const PersonalInjury = async ({
             </div>
        </div>
 
-<div className="bg-logoBlue p-10 md:mt-[338px] sm:mt-[0px]">
+<div className="bg-logoBlue p-10 md:mt-[338px] lg:mt-[315px] sm:mt-[0px]">
    <div className="flex sm:flex-col md:flex-row md:container md:mx-auto  space-x-10">
         <div className="md:flex">
-        <iframe  className="md:pt-10 sm:hidden md:block sm:p-10"width="560" height="315" src="https://www.youtube.com/embed/F1O_Tqa38JQ?si=ePLoehbOD4dWr0IN" title="YouTube video player"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+         
         </div>
         <div>
                 <p className="sm:text-center text-[28px] text-white sm:pt-5 md:pt-0">Our Expertise</p>

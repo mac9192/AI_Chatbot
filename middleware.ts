@@ -6,6 +6,9 @@ import Negotiator from "negotiator";
 import { i18n } from "./i18n.config";
  
 
+const PUBLIC_FILE = /\.(.*)$/
+
+
 /* GET LOCALE HANDLER */
 function getLocale(request: NextRequest): string | undefined {
   // Negotiator expects plain object so we need to transform headers
@@ -27,7 +30,11 @@ export default function middleware(request: NextRequest) {
   const pathnameIsMissingLocale = i18n.locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
-
+  if (    
+    PUBLIC_FILE.test(request.nextUrl.pathname)
+  ) {
+    return
+  }  
   // Redirect if there is no locale
   if (pathnameIsMissingLocale) {
     const locale = getLocale(request);

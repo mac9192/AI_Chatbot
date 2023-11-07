@@ -130,37 +130,37 @@ export const DUMMY_CATEGORIES: Category[] = [
 
 export const Service_Card : serviceCard[] =[
     {
-        bgImage: 'https://servicescardpub.s3.us-east-2.amazonaws.com/card-car-accident.jpeg',
+        bgImage: '/assets/card-car-accident.jpeg',
         icon: '/assets/serviceIcon-Car.svg',
         title: 'Motor Vehicle Accident',
         slug: 'car-accident',
     },
     {
-        bgImage: 'https://servicescardpub.s3.us-east-2.amazonaws.com/card-truck.jpg',
+        bgImage: '/assets/card-truck.jpg',
         icon: '/assets/serviceIcon-Truck.svg',
         title: 'Commercial Truck Accidents',
         slug: 'truck-accident',
     },
     {
-        bgImage: 'https://servicescardpub.s3.us-east-2.amazonaws.com/card-slip-and-falls.jpg',
+        bgImage: '/assets/card-slip-and-falls.jpg',
         icon: '/assets/serviceIcon-Slip.svg',
         title: 'Slip and Falls',
         slug: 'slip-and-falls',
     },
     {
-        bgImage: 'https://servicescardpub.s3.us-east-2.amazonaws.com/card-wrongful-death.jpg',
+        bgImage: '/assets/card-wrongful-death.jpg',
         icon: '/assets/serviceIcon-Death.svg',
         title: 'Wrongful Death',
         slug: 'wrongful-death',
     },
     {
-        bgImage: 'https://servicescardpub.s3.us-east-2.amazonaws.com/card-workComp.jpg',
+        bgImage: '/assets/card-workComp.jpg',
         icon: '/assets/serviceIcon-injury.svg',
         title: 'Workers Compensation',
         slug: 'workers-compensation',
     },
     {
-        bgImage: 'https://servicescardpub.s3.us-east-2.amazonaws.com/card-uber.jpg',
+        bgImage: '/assets/card-uber.jpg',
         icon: '/assets/serviceIcon-uber.svg',
         title: 'Uber/Lyft Accidents',
         slug: 'uber-lyft-acidents',
